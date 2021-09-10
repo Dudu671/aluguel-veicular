@@ -87,11 +87,20 @@ php artisan serve
 
 <hr/>
 
-## Pronto! Tudo deve estar funcionando. Caso negativo, é provável que seja um configuração do PHP, tendo em vista que é um projeto local e as configurações de ambiente variam. Neste caso, sugiro que busquem informações sobre os erros para resolver o problema.
+## Pronto! Tudo deve estar funcionando. Caso negativo, é provável que seja um configuração do PHP, tendo em vista que é um projeto local e as configurações de ambiente variam. Neste caso, sugiro que busquem informações sobre os erros para resolvê-los. O problema mais comum tange as extensões do PHP. Para resolver, basta procurar o arquivo php.ini com o seguinte comando:
+```sh
+php -i|find/i"configuration file"
+```
+## Acesse o arquivo php.ini e habilite as seguintes extensões (removendo o ; no começo da linha):
+```
+extension=fileinfo
+extension=mysqli
+extension=pdo_mysql
+```
 
 <hr/>
 
-## Para acessar o projeto no navegador, basta acessar http://127.0.0.1:8000
+## Para acessar o projeto no navegador, basta acessar http://127.0.0.1:8000.
 
 <hr/>
 
