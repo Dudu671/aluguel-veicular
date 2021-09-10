@@ -82,6 +82,9 @@ composer install
 php artisan migrate
 ```
 ```sh
+php artisan storage:link
+```
+```sh
 php artisan serve
 ```
 
