@@ -90,7 +90,7 @@ php artisan serve
 
 <hr/>
 
-## Pronto! Tudo deve estar funcionando. Caso negativo, é provável que seja um configuração do PHP, tendo em vista que é um projeto local e as configurações de ambiente variam. Neste caso, sugiro que busquem informações sobre os erros para resolvê-los. O problema mais comum tange as extensões do PHP. Para resolver, basta procurar o arquivo php.ini com o seguinte comando no prompt de comando:
+## Pronto! Tudo deve estar funcionando. Caso negativo, é provável que seja um problema de configuração do PHP, tendo em vista que é um projeto local e as configurações de ambiente variam. Neste caso, sugiro que busquem informações sobre os erros para resolvê-los. O problema mais comum tange as extensões do PHP. Para resolver, basta procurar o arquivo php.ini com o seguinte comando no prompt de comando:
 ```sh
 php -i|find/i"configuration file"
 ```
